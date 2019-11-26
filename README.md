@@ -5,9 +5,12 @@ This dataset contains the caffe deep-learning framework for the Algorithm data. 
 
 GBR-Aesthetics-Data used to support the caffe deep learning framework is available through the project metadata record: https://eatlas.org.au/data/uuid/a1d03d57-ab56-4032-b121-32e981524270
 
+Further information about this project can be found on the eAtlas Project page:https://eatlas.org.au/nesp-twq-3/aesthetic-value-gbr-3-2-3
+
 Licence: this work is licenced under a Creative Commone Attribution 4.0 International Licence. (https://creativecommons.org/licenses/by/4.0/) GBR-Aesthetics-Data, 15-11-2018. Becken S, Connoly R, Stantic B, Scott N, Mandal R, Le D, 
 
-Methods:
+
+GBR-Aesthetics-Data Methods:
 
 The following step were used to prepare the dataset:
 1. Flickr API was used to download more than 10,000 images using a keyword “Great Barrier Reef”. About 10,000 pictures were downloaded in August and September 2017.
