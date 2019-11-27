@@ -1,45 +1,45 @@
-# NESP_3.2.3_Aesthetic-value-GBR
-Code developed as part of NESP TWQ 3.2.3 project for automatic aesthetic rating of images using Deep Learning
+# Caffe
 
-This dataset contains the caffe deep-learning framework for the Algorithm data. We used NVIDIA-digit 6 environment and this version use caffe 0.15.14 More details information can be found in http://caffe.berkeleyvision.org.
+[![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)
+[![License](https://img.shields.io/badge/license-BSD-blue.svg)](LICENSE)
 
-GBR-Aesthetics-Data used to support the caffe deep learning framework is available through the project metadata record: https://eatlas.org.au/data/uuid/a1d03d57-ab56-4032-b121-32e981524270
+Caffe is a deep learning framework made with expression, speed, and modularity in mind.
+It is developed by Berkeley AI Research ([BAIR](http://bair.berkeley.edu))/The Berkeley Vision and Learning Center (BVLC) and community contributors.
 
-Further information about this project can be found on the eAtlas Project page:https://eatlas.org.au/nesp-twq-3/aesthetic-value-gbr-3-2-3
+Check out the [project site](http://caffe.berkeleyvision.org) for all the details like
 
-Licence: this work is licenced under a Creative Commone Attribution 4.0 International Licence. (https://creativecommons.org/licenses/by/4.0/) GBR-Aesthetics-Data, 15-11-2018. Becken S, Connoly R, Stantic B, Scott N, Mandal R, Le D, 
+- [DIY Deep Learning for Vision with Caffe](https://docs.google.com/presentation/d/1UeKXVgRvvxg9OUdh_UiC5G71UMscNPlvArsWER41PsU/edit#slide=id.p)
+- [Tutorial Documentation](http://caffe.berkeleyvision.org/tutorial/)
+- [BAIR reference models](http://caffe.berkeleyvision.org/model_zoo.html) and the [community model zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo)
+- [Installation instructions](http://caffe.berkeleyvision.org/installation.html)
 
+and step-by-step examples.
 
-GBR-Aesthetics-Data Methods:
+## Custom distributions
 
-The following step were used to prepare the dataset:
-1. Flickr API was used to download more than 10,000 images using a keyword “Great Barrier Reef”. About 10,000 pictures were downloaded in August and September 2017.
+ - [Intel Caffe](https://github.com/BVLC/caffe/tree/intel) (Optimized for CPU and support for multi-node), in particular Xeon processors (HSW, BDW, SKX, Xeon Phi).
+- [OpenCL Caffe](https://github.com/BVLC/caffe/tree/opencl) e.g. for AMD or Intel devices.
+- [Windows Caffe](https://github.com/BVLC/caffe/tree/windows)
 
-2. 2500 images were manually selected to conduct an online survey for manual score assessment based on several research criteria: (i) underwater pictures of GBR, (ii) without humans, (iii) viewed from 1-2 metres from objects and (iv) of high resolution.
+## Community
 
-3. The survey was created on Qualtrics website and launched on 4th October 2017 using Qualtrics survey service. 772 survey completions were recorded and 705 questionnaires were eligible for data analysis after filtering unqualified questionnaires.
+[![Join the chat at https://gitter.im/BVLC/caffe](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/BVLC/caffe?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-4. At least 10 participants were used to score one picture in a range of 1 to 10. An average score was considered as an actual score.
+Please join the [caffe-users group](https://groups.google.com/forum/#!forum/caffe-users) or [gitter chat](https://gitter.im/BVLC/caffe) to ask questions and talk about methods and models.
+Framework development discussions and thorough bug reports are collected on [Issues](https://github.com/BVLC/caffe/issues).
 
-5. The GBR-aesthetic-code folder actually contains the caffe deep-learning framework along with the setup for image aesthetic train and test code. More details information can be found in http://caffe.berkeleyvision.org. We used NVIDIA-digit 6 environment and this version use caffe 0.15.14
+Happy brewing!
 
-Format:
+## License and Citation
 
-1. All image files are stored as JPEG (.jpg format) – This images are used for training and testing. However, files are converted to lmdb format before used for actual training process.
+Caffe is released under the [BSD 2-Clause license](https://github.com/BVLC/caffe/blob/master/LICENSE).
+The BAIR/BVLC reference models are released for unrestricted use.
 
-2. All deep learning configuration files are saved as recommended prototxt files.
+Please cite Caffe in your publications if it helps your research:
 
-3. lmdb format is used to prepare the final training sets.
-
-4. training and test file lists are stored in txt files.
-
-5. surveyed information are stored in xls files.
-
-6. train_val.prototxt file describes the network definition used for training.
-
-7. solver.protxt contains information related to network configuration parameters
-
-8. snapshot_iter_3360.caffemodel- It is a trained model after 3360 iterations
-
-9. deploy.prototxt- contains network definition of test process.
-
+    @article{jia2014caffe,
+      Author = {Jia, Yangqing and Shelhamer, Evan and Donahue, Jeff and Karayev, Sergey and Long, Jonathan and Girshick, Ross and Guadarrama, Sergio and Darrell, Trevor},
+      Journal = {arXiv preprint arXiv:1408.5093},
+      Title = {Caffe: Convolutional Architecture for Fast Feature Embedding},
+      Year = {2014}
+    }
