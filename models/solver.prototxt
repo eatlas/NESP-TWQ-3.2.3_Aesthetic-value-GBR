@@ -1,0 +1,18 @@
+net: "models/ILG_spm/train_val.prototxt"
+
+#train_net: "models/ILG_spm/train.prototxt"
+#test_net: "models/ILG_spm/val.prototxt"
+
+test_iter: 400 
+test_interval: 4000 
+display: 100
+base_lr: 0.001 #0.0001
+lr_policy: "step"
+stepsize: 700000
+gamma: 0.96
+max_iter: 500000
+momentum: 0.9
+weight_decay: 0.0002
+snapshot: 200000
+snapshot_prefix: "models/ILGnet/ILGnet_spm_1024c"
+solver_mode: GPU
