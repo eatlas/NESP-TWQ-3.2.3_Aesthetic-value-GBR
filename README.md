@@ -1,3 +1,21 @@
+This repository has been created the Algorithm data for the 2017 aesthetic value project (NESP 3.2.3, Griffith Institute for Tourism Research)
+
+Further information on this project can be found on the eAtlas Project website https://eatlas.org.au/nesp-twq-3/aesthetic-value-gbr-3-2-3. Data used in the GBR-Aesthetics-code can be located on the metadata record: https://eatlas.org.au/data/uuid/a1d03d57-ab56-4032-b121-32e981524270
+
+Licence: this work is licenced under a Creative Commone Attribution 4.0 International Licence. (https://creativecommons.org/licenses/by/4.0/) GBR-Aesthetics-code, 28-01-2018. Becken S, Connolly R, Stantic B, Scott N, Mandal R, Le D.
+
+The following step were used to prepare the dataset:
+1.	Flickr API was used to download more than 10,000 images using a keyword “Great Barrier Reef”. About 10,000 pictures were downloaded in August and September 2017.
+
+2.	2500 images were manually selected to conduct an online survey for manual score assessment based on several research criteria: (i) underwater pictures of GBR, (ii) without humans, (iii) viewed from 1-2 metres from objects and (iv) of high resolution.
+
+3.	The survey was created on Qualtrics website and launched on 4th October 2017 using Qualtrics survey service. 772 survey completions were recorded and 705 questionnaires were eligible for data analysis after filtering unqualified questionnaires. 
+
+4.	At least 10 participants were used to score one picture in a range of 1 to 10. An average score was considered as an actual score. 
+
+5.	The GBR-aesthetic-code folder actually contains the caffe deep-learing framework along with the setup for image aesthetic train and test code. More details information can be found in http://caffe.berkeleyvision.org.  We used NVIDIA-digit 6 environment and this version use caffe 0.15.14
+
+
 # Caffe
 
 [![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)
