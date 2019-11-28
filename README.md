@@ -2,7 +2,7 @@ This repository has been created the Algorithm data for the 2017 aesthetic value
 
 Further information on this project can be found on the eAtlas Project website https://eatlas.org.au/nesp-twq-3/aesthetic-value-gbr-3-2-3. Data used in the GBR-Aesthetics-code can be located on the metadata record: https://eatlas.org.au/data/uuid/a1d03d57-ab56-4032-b121-32e981524270
 
-Licence: this work is licenced under a Creative Commone Attribution 4.0 International Licence. (https://creativecommons.org/licenses/by/4.0/) GBR-Aesthetics-code, 28-01-2018. Becken S, Connolly R, Stantic B, Scott N, Mandal R, Le D.
+Licence: this work is licenced under a Creative Commons Attribution 4.0 International Licence. (https://creativecommons.org/licenses/by/4.0/) GBR-Aesthetics-code, 28-01-2018. Becken S, Connolly R, Stantic B, Scott N, Mandal R, Le D.
 
 The following step were used to prepare the dataset:
 1.	Flickr API was used to download more than 10,000 images using a keyword “Great Barrier Reef”. About 10,000 pictures were downloaded in August and September 2017.
