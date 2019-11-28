@@ -13,7 +13,7 @@ The following step were used to prepare the dataset:
 
 4.	At least 10 participants were used to score one picture in a range of 1 to 10. An average score was considered as an actual score. 
 
-5.	The GBR-aesthetic-code folder actually contains the caffe deep-learing framework along with the setup for image aesthetic train and test code. More details information can be found in http://caffe.berkeleyvision.org.  We used NVIDIA-digit 6 environment and this version use caffe 0.15.14
+5.	The GBR-aesthetic-code folder contains the caffe deep-learing framework along with the setup for image aesthetic train and test code. More details information can be found in http://caffe.berkeleyvision.org.  We used NVIDIA-digit 6 environment and this version use caffe 0.15.14
 
 
 # Caffe
